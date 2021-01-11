@@ -20,8 +20,8 @@ export default class Item extends React.Component{
                <td>{person.Level}</td>
                <td><img style={{width:50,height:50}} src={person["ProfileImage"]}></img></td>
                <td>{person.Bet}</td>
-               <td>{parseInt(person.Wins/2)}</td>
-               <td>{parseInt(person.Loses/2)}</td>
+               <td>{person.Wins}</td>
+               <td>{person.Loses}</td>
                <td>{person.Price}</td>
            </tr>
         );

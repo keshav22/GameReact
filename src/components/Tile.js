@@ -23,7 +23,7 @@ const Tile = ({ user, number }) => {
                 <div align='left' style={{ marginTop: 10 }}>
                     <div>Price : {user.Price}</div>
                     <div>Bet : {user.Bet}</div>
-                    <div>Wins : {parseInt(user.Wins/2)}</div>
+                    <div>Wins : {user.Wins}</div>
                 </div>
             </div>
         </div>
